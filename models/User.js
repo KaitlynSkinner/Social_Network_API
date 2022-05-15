@@ -44,3 +44,9 @@ UserSchema.virtual('friendCount').get(function() {
 const User = model('User', UserSchema);
 
 module.exports = User;
+
+// MOCK DATA
+// {
+// 	"userName": "kaitlynskinner",
+// 	"email": "kaitlyneskinner@gmail.com"
+// }

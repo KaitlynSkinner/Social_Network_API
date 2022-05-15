@@ -65,3 +65,16 @@ ThoughtSchema.virtual('reactionCount').get(function() {
 const Thought = model('Thought', ThoughtSchema);
 
 module.exports = Thought;
+
+
+// MOCK DATA - THOUGHTS
+// {
+// 	"thoughtText": "This is the greatest app ever made!",
+// 	"userName": "kaitlynskinner"
+// }
+
+// MOCK DATA - REACTION
+// {
+// 	"reactionBody": "I could not agree more",
+// 	"userName": "jessikacampbell"
+// }
