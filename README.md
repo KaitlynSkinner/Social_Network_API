@@ -5,9 +5,7 @@ An API for a social network web application where users can share their thoughts
 
 
 ## User Story
-As a social media startup
-I want an API for my social network that uses a NoSQL database
-in order for my website to handle large amounts of unstructured data.
+As a social media startup, I want an API for my social network that uses a NoSQL database in order for my website to handle large amounts of unstructured data.
 
 
 ## Table of Contents
@@ -24,18 +22,12 @@ in order for my website to handle large amounts of unstructured data.
 
 
 ## Features
- * Signup - create a username and password
- * Login - user credentials are saved
- * Navigation includes: homepage, dashboard, and option to logout
- * View existing blog posts that include:
-    * Post Title
-    * Contents
-    * Post Creator's Username
-    * and Date Created
- * User's that are signed up have the option to leave and save a comment. This will include the comment creator's username, and the date the comment was created.
- * User's can create new blog posts
- * User's can also delete or update their posts
- * Logout - user is signed out of the website
+ * Signup - with a username and email
+ * User's can create thoughts
+ * User's can react to other user's thoughts
+ * View existing thoughts and their reactions
+ * User's can also delete or update their thoughts and reactions
+ * Application deletes a user's associated thoughts when the user is deleted.
 
 
 ## Technology Used
@@ -49,7 +41,7 @@ in order for my website to handle large amounts of unstructured data.
 
 * **Mongoose:** is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
-* **MongDB:** 
+* **MongDB:** is a general purpose, document-based, distributed NoSQL database built for web application developers in the cloud era. It’s one of the most popular database choices for modern applications.
 
 * **MongoDB Atlas:** is a cloud-based database service that's created and maintained by MongoDB. It works with hosting services such as AWS, Azure, and Google Cloud to help users provision, maintain, and secure new databases for their applications.
 
@@ -71,20 +63,23 @@ To install packages run the following command:
 ## Photos
  **Current Application Screenshots**
 ** **
-![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/singup.png?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-users.png?raw=true)
 ** **
-![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/login.png?raw=true) 
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-thoughts.png?raw=true) 
  ** **
-![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/posts.png?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-users-userId.png?raw=true)
 ** **
-![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/dashboard.png?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-thoughts-thoughtId.png?raw=true)
 ** **
-![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/add-comment.png?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/POST-api-users.png?raw=true)
 ** **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/PUT-api-users-userId.png?raw=true)
+** **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/DELETE-api-users-userId.png?raw=true)
+** **
+ 
 
-**Deployed to Heroku:** https://fast-stream-44337.herokuapp.com/ 
-
- ## License
+## License
 This application does not have a license. 
 
 
