@@ -61,6 +61,10 @@ To install packages run the following command:
 
 
 ## Photos
+**Video: All Routes Tested In Insomnia**
+[![Watch the video](https://img.youtube.com/vi/Gjfmibmau3E/0.jpg)](https://www.youtube.com/watch?v=Gjfmibmau3E)
+**Video: Server Started**
+[![Watch the video](https://img.youtube.com/vi/PyeUSk2D3oU/0.jpg)](https://www.youtube.com/watch?v=PyeUSk2D3oU)
  **Current Application Screenshots**
  ** **
 ** GET All Users **
