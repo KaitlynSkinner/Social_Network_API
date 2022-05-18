@@ -62,22 +62,28 @@ To install packages run the following command:
 
 ## Photos
  **Current Application Screenshots**
-** **
+** GET All Users **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-users.png?raw=true)
-** **
+** GET All Thoughts **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-thoughts.png?raw=true) 
- ** **
+ ** GET One User **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-users-userId.png?raw=true)
-** **
+** GET One Thought **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-thoughts-thoughtId.png?raw=true)
-** **
+** POST a user **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/POST-api-users.png?raw=true)
-** **
+** PUT a user **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/PUT-api-users-userId.png?raw=true)
-** **
+** DELETE a user **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/DELETE-api-users-userId.png?raw=true)
-** **
- 
+** POST a friend to a user **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b6abe10791e87988adb07ff752cb4d757378530a/assets/images/POST-api-users-userId-friends-friendId.png?raw=true)
+** DELETE a friend from a user **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b6abe10791e87988adb07ff752cb4d757378530a/assets/images/DELETE-api-users-userId-friends-friendId.png?raw=true)
+** POST a reaction to a thought **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b6abe10791e87988adb07ff752cb4d757378530a/assets/images/POST-api-thoughts-thoughId-reactions.png?raw=true)
+** DELETE a reaction to a thought **
+![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b6abe10791e87988adb07ff752cb4d757378530a/assets/images/DELETE-api-thoughts-thoughtId-reactions-reactionId.png?raw=true)
 
 ## License
 This application does not have a license. 
