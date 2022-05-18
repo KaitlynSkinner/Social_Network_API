@@ -69,8 +69,8 @@ module.exports = Thought;
 
 // MOCK DATA - THOUGHTS
 // {
-// 	"thoughtText": "This is the greatest app ever made!",
-// 	"userName": "kaitlynskinner"
+// 	"thoughtText": "This is the most amazing application ever!",
+// 	"userName": "jessicaskinner"
 // }
 
 // MOCK DATA - REACTION

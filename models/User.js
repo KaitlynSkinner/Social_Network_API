@@ -41,6 +41,10 @@ UserSchema.virtual('friendCount').get(function() {
     return this.friends.length;
 });
 
+// UserSchema.virtual('thoughtCount').get(function() {
+//     return this.thoughts.length;
+// });
+
 const User = model('User', UserSchema);
 
 module.exports = User;
@@ -49,4 +53,15 @@ module.exports = User;
 // {
 // 	"userName": "kaitlynskinner",
 // 	"email": "kaitlyneskinner@gmail.com"
+// }
+
+// {
+// 	"thoughtText": "This is the most amazing application ever!",
+// 	"userName": "jessicaskinner"
+// }
+
+// {
+// 	"friends": [
+// 		"jessikacampbell"
+// 	]
 // }
