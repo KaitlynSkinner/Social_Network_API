@@ -62,6 +62,7 @@ To install packages run the following command:
 
 ## Photos
  **Current Application Screenshots**
+ ** **
 ** GET All Users **
 ![Deployed Application](https://github.com/KaitlynSkinner/Social_Network_API/blob/b996a423efbe483c94152554fad582f3e097ad30/assets/images/GET-api-users.png?raw=true)
 ** GET All Thoughts **
